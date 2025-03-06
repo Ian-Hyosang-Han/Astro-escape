@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galaxy</title>
+    <title>Astro Escape</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -13,12 +13,14 @@
     <div id="game-board">
         <p>'Arrow Keys' to Move</p>
         <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <img id="game-over-img" src="assets/game-over.png" class="hidden" alt="Game Over">
         <button id="play-again-btn" class="hidden">Restart</button>
+        <button id="home-btn" class="hidden">StartScreen</button>
         <p id="score">Time: 0</p>
     </div>
     <div id="start-screen">
         <div id="logo">
-            <h1>Galaxy Space</h1>
+            <img src="assets/logo.gif" alt="game start screen logo">
         </div>
         <div id="start-btns">
             <button id="start">Start</button>
