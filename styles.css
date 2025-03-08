@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/*===================================================
+//===========START SCREEN SECTION DESIGN=============
+//==================================================*/
+
 #game-board {
     text-align: center;
     position: relative;

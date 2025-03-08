@@ -84,6 +84,10 @@ class Meteor {
                 this.dy = 0;
                 break;
         }
+        // The meteor to fly in a random direction
+        const angle = Math.random() * Math.PI * 2;
+        this.dx = Math.cos(angle) * this.speed;
+        this.dy = Math.sin(angle) * this.speed;
     }
     move() {
         this.x += this.dx;
@@ -95,12 +99,15 @@ class Meteor {
     }
 }
 
+// Game Reset / Initialize
 function initGame() {
     player = new Player();
     meteors = [];
     startTime = Date.now();
     gameRunning = true;
     scoreDisplay.innerText = "Time: 0";
+
+    // Hide the game over image and buttons at the start
     gameOverImg.style.display = "none";
     restartButton.style.display = "none";
     homeButton.style.display = "none";
@@ -173,6 +180,7 @@ function gameOver() {
 
 restartButton.addEventListener("click", () => {
     restartButton.style.display = "none";
+    keys = {};
     initGame();
     gameLoop();
     spawnMeteor();
