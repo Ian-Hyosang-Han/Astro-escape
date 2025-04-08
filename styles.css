@@ -1,3 +1,7 @@
+/*=======================================
+//=========== STYLE SECTION =============
+//=====================================*/
+
 body {
     display: flex;
     justify-content: center;
@@ -9,15 +13,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/*===================================================
-//===========START SCREEN SECTION DESIGN=============
-//==================================================*/
-
 #game-board {
     text-align: center;
     position: relative;
-    width: 800px;
-    height: 600px;
+    width: 50rem;
+    height: 37.5rem;
     z-index: 1;
 }
 
@@ -36,7 +36,7 @@ canvas {
     align-items: center;
     justify-content: center;
     background: url('assets/start-image.gif') no-repeat center center;
-    background-size: 900px 650px;
+    background-size: 56.25rem 40.625rem;
     width: 100%;
     height: 100vh;
     color: #fff;
@@ -51,7 +51,7 @@ canvas {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    max-width: 900px;
+    max-width: 56.25rem;
     height: auto;
 }
 
@@ -93,7 +93,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 400px;
+    max-width: 25rem;
     display: none;
     z-index: 5;
 }
