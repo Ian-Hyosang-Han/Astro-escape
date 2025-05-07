@@ -22,6 +22,9 @@ Dodge meteors, survive as long as you can, and test your reflexes!
 # Personal Note
 - Creating this game was a genuinely joyful experience. As someone who grew up playing classic shooting games, building one myself was both nostalgic and exciting. I had no clear idea how to begin at first, but through a lot of research—and with the help of AI—I was able to bring this project to life. It took time, but in the end, I created something I’m truly proud of.
 
+# Live Site
+https://hyosanghan.com/astro-escape/
+
 # Inspiration
 - This project was inspired by a friend’s own JavaScript game project, which sparked my interest in building something similar from scratch. You can check out their game here:
 
